@@ -66,6 +66,6 @@ func main() {
 
 	// output
 	for i := 0; i < nx; i++ {
-		fmt.Printf("%v\t%v\n",x[i],y[i])
+		fmt.Printf("%1.32f\t%1.32f\n",x[i],y[i])
 	}
 }

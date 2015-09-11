@@ -59,6 +59,6 @@ fn main() {
 
 	// output
 	for i in 0..NX {
-		println!("{:?}\t{:?}",x[i as usize],y[i as usize]);
+		println!("{:1.32}\t{:1.32}",x[i as usize],y[i as usize]);
 	}
 }
